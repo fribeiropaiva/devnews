@@ -11,17 +11,24 @@
 .textContent {
   max-width: 600px;
 
-  h1 {
+  .welcome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  .presentation {
     font-size: 4.5rem;
     line-height: 4.5rem;
     font-weight: 900;
+    margin-top: 2rem;
 
     span {
       color: var(--cyan-500);
     }
   }
 
-  p {
+  .callToAction {
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin-top: 1.5rem;
@@ -35,5 +42,9 @@
   .subscriptionPrice {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  button {
+    margin-top: 2.5rem;
   }
 }
